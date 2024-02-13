@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <form action="action.php" class="first">
+            <input type="number" placeholder="Enter currency" class="primary inp">
+            <label for="currency"></label>
+            <select name="currency" id="currency" class="primary list">
+
+            </select>
+        </form>
+
+        <h2> &darr; </h2>
+        
+
+        <form action="action.php" class="second">
+            <input type="text" placeholder="Enter currency" class="second inp">
+            <label for="currency"></label>
+            <select name="currency" id="currency" class="second list">
+               
+            </select>
+        </form>
+
+
+        <button>Submit</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
